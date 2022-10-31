@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joshyka_website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body class="animate__animated animate__fadeIn">
+    <nav class="navbar">
+        <h1 class="logo">Joshyka</h1>
+        <ul class="nav-links-container">
+            <li class="nav-link"><a href="#home-section" class="links active">Home</a></li>
+            <li class="nav-link"><a href="#about-section" class="links">About me</a></li>
+            <li class="nav-link"><a href="#contact-section" class="links">Contact</a></li>
+        </ul>
+
+        <!-- Toggle -->
+        <div class="toggle-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="header" id="home-section">
+        <div class="content">
+            <h1 class="header-heading">Hej, I'm <span class="brand-name">Joshyka Jothi S<span></span></span></h1>
+            <div class="contact-div">
+                <div class="animate__animated animate__pulse"><a href="#about-section" class="btn">Info</a></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- about section -->
+
+    <section id="about-section">
+        <h1 class="heading">About me</h1>
+        <!-- about -->
+        <div class="about-container">
+            <div class="image-container">
+                <div class="square"></div>
+                <img src="assets/img/about.png" class="about-img" alt="JoseXS">
+                <div class="social-links">
+                    <a id="github" href="https://github.com/joshyka" target="_blank"><img src="assets/img/github.png" class="social-img"
+                            alt="Github"></a>
+                    <a id="linkedin" href="https://www.linkedin.com/in/joshykajothi16/" target="_blank"><img src="assets/img/linked.png" class="social-img"
+                            alt="Linkedin"></a>
+                </div>
+            </div>
+
+            <!-- info part -->
+            <div class="info">
+                <div id="info"></div>
+                <a href="https://drive.google.com/file/d/1vGdF6r_ajL9Z8aGTeKpCyy1u6sfR9j8f/view?usp=share_link" target="_blank" class="btn about">Download Resume</a>
+            </div>
+        </div>
+
+        <h2 class="sub-heading">Skills</h2>
+
+        <div id="skills" class="skills">
+        </div>
+    </section>
+
+
+    <section id="article-section">
+        <h1 class="heading">Areas of expertise</h1>
+
+        <div id="filterArticles" class="filter"></div>
+
+        <!--  articles cards -->
+        <div id="article-container" class="article-container"></div>
+    </section>
+
+    <section id="project-section">
+        <h1 class="heading">Articles</h1>
+
+        <div id="filterProjects" class="filter"></div>
+
+        <!--  project cards -->
+        <div id="project-container" class="project-container"></div>
+    </section>
+
+    <section id="contact-section">
+        <h1 class="heading">Contact</h1>
+        <div class="form">
+            <form action="https://formspree.io/f/xlevglwy" method="POST">
+                <input name="email" type="email" placeholder="Email">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit" class="contact-btn">Contact</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+<div class = "footer">
+    <div class = "container-fluid">         
+        <div class = "row">
+            <div class = "col-sm-12 col-md-12 text-centre">
+                <div class = "company-information">
+                    
+                    <h3>Joshyka Jothi Singaaravadivelu</h3>
+                    <h4>Gothenburg, Sweden</h4>
+                    <h4>Email: joshykajothi7@gmail.com</h4>
+                    <h4>Copyright &copy; 2022</h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="./utils.js"></script>
+<script src="./project.js"></script>
+<script src="./articles.js"></script>
+<script src="./app.js"></script>
+
+</html>
