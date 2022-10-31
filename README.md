@@ -1,2 +1,3 @@
-# josexs.github.io
+www.joshyka.com
 
+joshyka.netlify.app
