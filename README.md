@@ -1,3 +1,3 @@
+www.joshyka.com
 
-# www.joshyka.com
-# joshyka.netlify.app
+joshyka.netlify.app
