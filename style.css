@@ -521,11 +521,10 @@ body {
 /* project section */
 
 #project-section {
-  /* position: relative;
+  position: relative;
   margin: 50px 0;
   padding: 0 10vw;
-  margin-top: 0px; */
-  position: relative;
+  margin-top: 0px;
   padding: 100px 10vw;
 }
 
