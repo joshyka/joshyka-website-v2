@@ -274,7 +274,82 @@ body {
   background-color: #a50101;
 }
 
-/* time line */
+/* timeline */
+* {
+	box-sizing: border-box;
+}
+body {
+	background: #fff;
+}
+.container {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
+}
+.single-box {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 100%;
+}
+.date-area {
+	display: flex;
+	background: linear-gradient(to right, #fff 45%, #000 45%, #000 45%, #fff 50%);
+	order: 2;
+	text-align: center;
+	color: #fff;
+	font-size: 28px;
+	flex-basis: 100px;
+}
+.date-area>span {
+	font-size: 20px;
+	line-height: 70px;
+	margin: auto;
+	background: #a50101;
+	width: 120px;
+	height: 70px;
+	border-radius: 50%;
+}
+.content {
+	text-align: center;
+	padding: 20px;
+	border-radius: 25px;
+	color: #000;
+	order: 3;
+	width: 80%;
+	padding-left: 10px;
+	background: #fff;
+}
+.content {
+	margin-bottom: 3%;
+}
+.content h2 {
+	margin: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.content h3 {
+	margin: 5px;
+	font-size: 14px;
+	color: #000;
+}
+@media (min-width: 640px) {
+	.content, .custom {
+		width: 40%;
+	}
+	.box-right .content {
+		order: 1;
+		padding-right: 10px;
+		border-radius: 25px;
+	}
+	.box-right .custom {
+		order: 3;
+	}
+}
+
+/* time line 
 
 .timeline-container {
   width: 100%;
@@ -365,7 +440,7 @@ body {
 .card-container:nth-child(even) .card::before {
   left: -8%;
 }
-
+*/
 /* article section */
 
 #article-section {
@@ -490,7 +565,7 @@ body {
 }
 
 .project-thumbnail {
-  width: 100%;
+  width: 80%;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -507,8 +582,8 @@ body {
 }
 
 .project-image {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   object-fit: cover;
 }
 
@@ -539,8 +614,8 @@ body {
 }
 
 .project-card.active .project-thumbnail {
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
   cursor:auto;
 }
 
