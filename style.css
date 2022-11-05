@@ -526,6 +526,8 @@ body {
   padding: 0 10vw;
   margin-top: 0px;
   padding: 100px 10vw;
+  max-width: 50%;
+  height: auto;
 }
 
 .filter {
