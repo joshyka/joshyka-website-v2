@@ -30,7 +30,7 @@ const aboutMe = () => {
 }
 
 const skills = () => {
-  const skills = ['C/C++', 'Python', 'Java', 'Matlab', 'Simulink' , 'Lua scripting' , 'GPU Computing' , 'Machine Learning' , 'Linux OS', 'System safety ISO26262' , 'Scrum' , 'SAFe' , 'Docker', 'Git/Gerrit','Web Development',];
+  const skills = ['C/C++', 'Python', 'Java', 'Matlab', 'Simulink' , 'Lua scripting' , 'GPU Computing' , 'Machine Learning' , 'Linux OS', 'ISO26262' , 'Scrum' , 'SAFe' , 'Docker', 'Git/Gerrit','Web Development',];
   const skillsDiv = document.getElementById('skills');
   skills.forEach((skill)=> skillsDiv.innerHTML += `<p class="skill-name">${skill}</p>`)
 }
